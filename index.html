@@ -40,7 +40,7 @@
 
     <!-- home section start -->
     <section class="home" id="home">
-        <div class="max-width">
+        <div class="max-width" data-aos="fade-right">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Mizanur Alrasid</div>
@@ -250,6 +250,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         var dark = document.getElementById("dark");
     dark.onclick = function(){
@@ -261,6 +262,10 @@
         dark.src="images/moon.png";
     }
 }
+            AOS.init({
+       offset:280,
+       duration:2000
+    })
     </script>
 </body>
 </html>
