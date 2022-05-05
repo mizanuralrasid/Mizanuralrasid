@@ -42,6 +42,9 @@ body{
 section{
     padding: 100px 0;
 }
+.contact{
+    background-image: url(/images/ai-machine-learning-hands-robot-human-touching-big-data-network-connection-background-science-artificial-intelligence-172987598.jpg);
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
